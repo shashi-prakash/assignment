@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chatBot.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Shashi | Prakash</title>
+</head>
+
+<body>
+    <div id="center-text">
+        <h2>Iris Chat Bot</h2>
+    </div>
+    <div id="body">
+
+
+        <!--button-->
+        <div id="chat-circle" class="btn btn-raised">
+            <div id="chat-overlay"></div>
+            <img class="chat-circle_robot" src="./assets/icon/customerCareIcon.png">
+        </div>
+
+        <!--chat-bot-->
+        <div class="chat-box">
+            <div class="chat-box-body">
+                <!--welcome message-->
+                <div class="chat-box-welcome__header">
+                    <div class="chat-box__header-text">
+                        <section class="motion">
+                            <p3 class="chat-box-welcome__company-name">IRIS</p3>
+
+                            <!-- <span class="chat-box-toggle"><i class="material-icons">x</i></span> -->
+                            <div class="mainText">
+                                <p>Hello</p>
+                                <p><img src="./assets/icon/handIcon1.png" alt="" clss="handI_image"></p>
+                            </div>
+                            <div class="subHeaderChat">
+                                <p>I am Iris, a Virtual Assistant</p>
+                                <p>How may I help you?</p>
+
+                            </div>
+                        </section>
+
+                        <div class="card">
+                            <i class='fas fa-robot' id="robotStyle"></i>
+                            <div class="container" id="container">
+
+                            </div>
+                            <div id="mycard1" class="myCard">
+
+                            </div>
+                            <div id="mycard2" class="myCard">
+
+                            </div>
+                            <div id="mycard3" class="myCard">
+
+                            </div>
+                            <div id="mycard4" class="myCard">
+
+                            </div>
+                            <div id="mycard5" class="myCard">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div id="chat-box-welcome__ava">
+                    </div>
+
+                </div>
+                <!--chat-bot after welcome was toggled-->
+                <div id="chat-box__wraper">
+                    <div class="chat-box-header">
+                        IRIS
+                        <!-- <span class="chat-box-toggle"><i class="material-icons">x</i></span> -->
+
+                    </div>
+
+
+
+                    <div class="chat-box-overlay">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- External jquery local file link  -->
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./chatbot.js"></script>
+    <!--jquery ui-->
+</body>
+
+</html>
